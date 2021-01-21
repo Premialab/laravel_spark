@@ -2,7 +2,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: premialab/laravel-spark
+      IMAGE_NAME: vs0uz4/laravel-spark
       DEBIAN_FRONTEND: noninteractive
     docker:
       - image: circleci/buildpack-deps:stretch
